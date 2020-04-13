@@ -1,0 +1,22 @@
+// ----------------------------------------------
+// ---------------- style for puzzle
+// ----------------------------------------------
+
+@import "src/assets/scss/styles.scss";
+
+h1 {
+    background: #5cc097;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.blocks-frame {
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+    background-size: cover;
+}

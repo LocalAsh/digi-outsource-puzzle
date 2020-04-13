@@ -1,0 +1,20 @@
+// ----------------------------------------------
+// ---------------- styles for app
+// ----------------------------------------------
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+}

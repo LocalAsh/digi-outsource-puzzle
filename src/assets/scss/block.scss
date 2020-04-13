@@ -1,0 +1,19 @@
+// ----------------------------------------------
+// ---------------- style for puzzle
+// ----------------------------------------------
+
+@import "src/assets/scss/styles.scss";
+
+.block {
+    border: 1px solid #111;
+        &:hover {
+        border-color: #2ec0d3;
+        cursor: pointer;
+    }
+    &.empty {
+        &:hover {
+            border-color: #111;
+            cursor: default;
+        }
+    }
+}
